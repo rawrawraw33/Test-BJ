@@ -125,6 +125,7 @@ namespace Test_BJ
                 {
                     if (_players[i].Score > 21)
                         Console.WriteLine("Bank winner");
+
                     else
                     {
                         if (bank.Score > _players[i].Score)

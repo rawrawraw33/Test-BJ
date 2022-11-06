@@ -11,10 +11,11 @@ namespace Test_BJ
         {
             void InitGame()
             {
-
+                var money = 100;
                 var deck = new Deck();
                 var bank = new PlayerModel() { Name = "Bank" };
                 PlayerModel player1;
+                Console.WriteLine($"You have {money}$");
 
                 while (true)
                 {
