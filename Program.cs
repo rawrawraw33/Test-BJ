@@ -11,6 +11,7 @@ namespace Test_BJ
         {
             void InitGame()
             {
+
                 var deck = new Deck();
                 var bank = new PlayerModel() { Name = "Bank" };
                 PlayerModel player1;

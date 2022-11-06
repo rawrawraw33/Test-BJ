@@ -26,7 +26,7 @@ namespace Test_BJ
             protected set
             {
                 if (!_names.Contains(value))
-                    throw new ArgumentException("nevernoe name karty");
+                    throw new ArgumentException("incorrect card name");
                 _name = value;
             }
         }
